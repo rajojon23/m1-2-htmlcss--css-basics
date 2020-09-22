@@ -14,6 +14,67 @@ li {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  list-style-type: none;
 }
 
 /* ADD CSS BELOW */
+
+
+
+body {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+
+h1,
+h2,h3 {
+	font-family: "Bangers", cursive;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2em;
+	margin: 25px 0 25px 0;
+}
+
+h2 {
+	margin: 10px 0 10px 40px;
+	font-size: 1.5em;
+
+}
+h3{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.row, .sub_row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.row{
+	margin-left: 35px;
+}
+
+
+.col {
+	border: 2px dashed gray;
+	padding: 0 10px 10px 10px;
+	background-color: #eeeeee;
+	margin: 0 7px 0 7px;
+
+}
+
+.image {
+	height: 100px;
+	margin: 0 3px 0 3px;
+	border-radius: 2px;
+}
+
+.image.whale{
+	width: 150px; /*manual fixing of whale image width, won't take full width of column for some reason*/
+}
+
+
+
