@@ -1,7 +1,21 @@
 body {
   padding: 40px;
 }
+button:focus {
+	outline:0;
+}
 
+button:active {
+
+	transform: scale(0.9);
+	background-color: #00008B;
+}
 button {
-  /* Solve me */
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform .2s; /* Animation */
 }
