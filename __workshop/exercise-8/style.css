@@ -1,3 +1,4 @@
+
 img {
   max-width: 300px;
 }
@@ -6,9 +7,12 @@ img {
 }
 
 .img2 {
+	display: none;
 }
 
 .img3 {
+	visibility: hidden;
+
 }
 
 .img4 {
